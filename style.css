@@ -31,9 +31,9 @@ a {
     /* size */
     color: white;
     margin-top: 300px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 100px;
     padding: 50px;
 
 }

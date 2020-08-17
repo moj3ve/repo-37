@@ -6,8 +6,15 @@ body {
 
 }
 
-p {
+h3 {
+    font-size: 150px;
+}
+
+h2 {
     background-color: teal;
+    font-size: 100px;
+
+    /* size */
     padding: 15px;
     margin-top: 30px;
     margin-right: 250px;
@@ -17,20 +24,23 @@ p {
 }
 
 a {
+    /* gradient */
     background-color: teal;
     background: linear-gradient(teal, rgba(0, 128, 128, 0.75) 100%);
+
+    /* size */
     color: white;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
     padding: 5px;
 
 }
 
 img {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
     
 }

@@ -3,7 +3,6 @@ body {
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 h1 {
@@ -20,7 +19,6 @@ h2 {
     margin-right: 100px;
     margin-left: 100px;
     border-radius: 50px;
-
 }
 
 a {
@@ -35,12 +33,10 @@ a {
     margin-right: 200px;
     border-radius: 100px;
     padding: 50px;
-
 }
 
 img {
     height: 200px;
     width: 200px;
     border-radius: 100px;
-    
 }

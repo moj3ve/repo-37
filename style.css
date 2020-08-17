@@ -2,7 +2,7 @@ body {
     background-color: #242424;
     color: white;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
 }
 
 p {
@@ -16,6 +16,7 @@ p {
 
 a {
     background-color: teal;
+    background: linear-gradient(teal, rgba(0, 128, 128, 0.75) 100%);
     color: white;
     margin-top: 100px;
     margin-left: 50px;

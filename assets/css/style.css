@@ -10,12 +10,13 @@ h1 {
 }
 
 h2.a {
+    /*gradient*/
     background-color: teal;
     font-size: 50px;
-
     /* size */
     width: 500px;
     margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 50px;
     border-radius: 50px;
 }

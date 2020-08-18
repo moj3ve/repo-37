@@ -14,10 +14,8 @@ h2.a {
     font-size: 50px;
 
     /* size */
-    padding: 15px;
-    margin-top: 30px;
-    margin-right: 100px;
-    margin-left: 100px;
+    width: 500px;
+    margin-left: 250px;
     margin-bottom: 50px;
     border-radius: 50px;
 }

@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Code:400,600&display=swap);
 
+:root {
+  --cydia: rgb(142, 92, 67);
+  --zebra: rgb(234, 234, 234);
+  --installer: rgb(64, 175, 246);
+  --sileo: rgb(28, 194, 189);
+}
+
 body {
   background-color: #242424;
   color: white;
@@ -22,14 +29,32 @@ h2 {
 }
 
 a {
-  background-color: teal;
-  background: linear-gradient(teal, rgba(0, 128, 128, 0.5) 100%);
-  color: white;
   margin-top: 100px;
   margin-left: 150px;
   margin-right: 150px;
   border-radius: 75px;
   padding: 50px;
+}
+
+/* Color Specific Backgound */
+a.cydia {
+  background-color: var(--cydia);
+  background: linear-gradient(var(--cydia), rgba(142, 92, 67, 0.4) 100%);
+}
+
+a.zebra {
+  background-color: var(--zebra);
+  background: linear-gradient(var(--zebra), rgba(234, 234, 234, 0.4) 100%);
+}
+
+a.installer {
+  background-color: var(--installer);
+  background: linear-gradient(var(--installer), rgba(64, 175, 246, 0.4) 100%);
+}
+
+a.sileo {
+  background-color: var(--sileo);
+  background: linear-gradient(var(--sileo), rgba(28, 194, 189, 0.4) 100%);
 }
 
 img {

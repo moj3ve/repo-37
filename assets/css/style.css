@@ -44,13 +44,13 @@ a {
   border-radius: 25px;
   padding: 25px;
 
-  -webkit-filter: brightness(75%);
-  -webkit-transition-duration: 0.1s;
+  filter: brightness(70%);
+  transition: 1s;
 }
 
 a:hover {
-  -webkit-filter: brightness(100%);
-  -webkit-transition-duration: 0.3s;
+  filter: brightness(100%);
+  transition: 1s;
 }
 
 

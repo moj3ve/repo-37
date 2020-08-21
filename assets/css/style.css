@@ -31,18 +31,14 @@ h1 {
 h2 {
   background-color: var(--background);
   font-size: 30px;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-bottom: 50px;
-  border-radius: 25px;
-  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 /* Shared 'a' Properies */
 a {
-  margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
   border-radius: 75px;
   padding: 40px;
 }
@@ -68,6 +64,6 @@ a.sileo {
 img {
   height: 200px;
   width: 200px;
-  border-radius: 100px;
+  border-radius: 50px;
   margin-top: 75px;
 }

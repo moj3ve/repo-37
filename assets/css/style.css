@@ -39,8 +39,10 @@ h2 {
 
 /* Shared 'a' Properies */
 a {
+  margin-left: 15px;
+  margin-right: 15px;
   border-radius: 75px;
-  padding: 40px;
+  padding: 25px;
 }
 
 /* Color Specific Backgound */
@@ -62,8 +64,8 @@ a.sileo {
 
 /* Package Manager Image Size and Radius */
 img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50px;
   margin-top: 75px;
 }

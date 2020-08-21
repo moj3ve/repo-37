@@ -29,9 +29,9 @@ ul {
   margin: 0%;
   padding: 10px;
   overflow: hidden;
-  position: absolute;
+  position: static;
   top: 0;
-  width: 100%;
+  width: 97.5%;
 
   background-color: var(--background);
 

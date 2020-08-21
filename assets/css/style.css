@@ -68,13 +68,12 @@ img {
   width: 150px;
   border-radius: 50px;
   margin-top: 75px;
- 
-  box-sizing: border-box;
-  background: var(--h2-background);
-  position: relative;
-  transition: 1s;
+
+  -webkit-filter: brightness(75%);
+  -webkit-transition-duration: 5s;
 }
 
-img :hover {
-  border-radius: 10%;
+img:hover {
+  -webkit-filter: brightness(100%);
+  -webkit-transition-duration: 0.3s;
 }

@@ -68,4 +68,13 @@ img {
   width: 150px;
   border-radius: 50px;
   margin-top: 75px;
+ 
+  box-sizing: border-box;
+  background: var(--h2-background);
+  position: relative;
+  transition: 1s;
+}
+
+img :hover {
+  border-radius: 10%;
 }

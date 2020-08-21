@@ -29,7 +29,7 @@ ul {
   margin: 0%;
   padding: 10px;
   overflow: hidden;
-  position: static;
+  position: absolute;
   top: 0;
   width: fit-content;
 

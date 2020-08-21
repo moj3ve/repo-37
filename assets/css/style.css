@@ -43,7 +43,16 @@ a {
   margin-right: 15px;
   border-radius: 25px;
   padding: 25px;
+
+  -webkit-filter: brightness(75%);
+  -webkit-transition-duration: 0.1s;
 }
+
+a:hover {
+  -webkit-filter: brightness(100%);
+  -webkit-transition-duration: 0.3s;
+}
+
 
 /* Color Specific Backgound */
 a.cydia {
@@ -69,11 +78,4 @@ img {
   border-radius: 50px;
   margin-top: 75px;
 
-  -webkit-filter: brightness(75%);
-  -webkit-transition-duration: 5s;
-}
-
-img:hover {
-  -webkit-filter: brightness(100%);
-  -webkit-transition-duration: 0.3s;
 }

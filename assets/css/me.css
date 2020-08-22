@@ -17,7 +17,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0%;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -39,17 +39,7 @@ li a {
   font-weight: bolder;
   text-align: center;
   margin: 10px;
-  padding: 5px;
   text-decoration: none;
-
-  border-radius: 15px; /* First Radius */
-  transition: 1s;
-}
-
-li a:hover:not(.active) {
-  background-color: var(--main-color);
-  
-  border-radius: 5px; /* Final Radius */
 }
 
 h2.me {
@@ -61,4 +51,9 @@ p.me {
   text-align-last: left;
   font-size: 20px;
   font-weight: bold;
+}
+
+img {
+  width: 25px;
+  height: 25px;
 }

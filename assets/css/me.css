@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Code:400,600&display=swap);
+
+/* Color Variables */
+:root {
+  --background: rgb(111, 149, 246);
+  --main-color: rgb(212, 212, 212);
+}
+
+body {
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  font-family: 'Fira Code';
+}
+
+/* NavBar */
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+
+  background-color: var(--background);
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+li {
+  float: right;
+  font-size: 15px;
+}
+
+li a {
+  color: #000000;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+
+  border-radius: 15px; /* First Radius */
+  transition: 1s;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--main-color);
+  
+  border-radius: 5px; /* Final Radius */
+}
+
+h2.me {
+  text-align-last: left;
+  font-size: 50px;
+}
+  
+p.me {
+  text-align-last: left;
+  font-size: 20px;
+}

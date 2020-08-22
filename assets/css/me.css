@@ -52,6 +52,7 @@ li a:hover:not(.active) {
   border-radius: 5px; /* Final Radius */
 }
 
+
 h2.me {
   text-align-last: left;
   font-size: 50px;
@@ -60,4 +61,5 @@ h2.me {
 p.me {
   text-align-last: left;
   font-size: 20px;
+  font-weight: bold;
 }

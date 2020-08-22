@@ -51,12 +51,16 @@ li a {
   margin: 10px;
   padding: 5px;
   text-decoration: none;
+
   border-radius: 15px; /* First Radius */
+  transition: 1s;
 }
 
 li a:hover:not(.active) {
   background-color: var(--main-color);
+
   border-radius: 5px; /* Final Radius */
+  transition: 1s;
 }
 
 h1.welcome {

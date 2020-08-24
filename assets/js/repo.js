@@ -1,3 +1,3 @@
 function lmAo() {
-    console.log('penes gordos');
+    console.log('owo');
 }

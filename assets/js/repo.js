@@ -1,3 +1,3 @@
 function lmAo() {
-    console.log('owo');
+    console.log('owo \n');
 }

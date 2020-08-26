@@ -141,6 +141,6 @@ div.text-bottom > .github {
 }
 
 a.github:hover:not(.active) {
-  color: var(--light-gray); /*Final COlor */
+  color: var(--light-gray); /* Final Color */
   transition: 1s;
 }

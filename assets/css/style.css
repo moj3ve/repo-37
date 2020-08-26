@@ -60,7 +60,7 @@ li a:hover:not(.active) {
   background-color: var(--main-color);
   color: var(--background);
 
-  border-radius: 5px; /* Final Radius */
+  border-radius: 8px; /* Final Radius */
   transition: 1s;
 }
 
@@ -70,16 +70,23 @@ h1.welcome {
 }
 
 h2.package {
-  background-color: var(--background);
   font-size: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
+
+  margin-left: 250px;
+  margin-right: 250px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 1px;
+
+  transition: 2s;
+}
+
+h2.package:hover:not(.active) {
+  background-color: var(--background);
 }
 
 /* Shared 'a' Properies */
 a.PM {
+  margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
 

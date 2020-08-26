@@ -34,6 +34,8 @@ li a {
 }
 
 h2.me {
+  margin-top: 75px;
+
   text-align: left;
   font-size: 50px;
 }
@@ -45,6 +47,6 @@ p.me {
 }
 
 img {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
 }

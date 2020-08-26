@@ -3,11 +3,12 @@
 /* Color Variables */
 :root {
   --secondary: rgb(111, 149, 246);
+  --background: rgb(25, 25, 25);
   --light-gray: rgb(212, 212, 212);
 }
 
 body {
-  background-color: #242424;
+  background-color: var(--background);
   color: white;
   text-align: center;
   font-family: 'Fira Code';
@@ -16,15 +17,18 @@ body {
 h1 {
   color: var(--light-gray);
   font-size: 75px;
+
+  margin-top: 75px;
 }
 
 h2 {
   background-color: var(--secondary);
   font-size: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-radius: 20px;
-  padding: 10px;
+
+  margin-left: 2500px;
+  margin-right: 2500px;
+  border-radius: 15px;
+  padding: 1px;
 }
 
 img {
@@ -33,13 +37,4 @@ img {
   border-radius: 25px;
   width: 100px;
   height: 100px;
-}
-
-img:hover {
-  -webkit-filter: brightness(70%);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
 }

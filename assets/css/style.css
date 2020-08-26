@@ -80,8 +80,6 @@ h2.package {
   margin-right: 250px;
   border-radius: 15px;
   padding: 1px;
-
-  transition: 2s;
 }
 
 /* Shared 'a' Properies */
@@ -126,21 +124,23 @@ img.PM {
   margin-top: 75px;
 }
 
-div.bottom {
+div.text-bottom {
   position: absolute;  
   bottom: 15px;
   right: 0
 }
 
-a.github {
+div.text-bottom > .github {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--secondary); /* First Color */
   transition: 1s;
+
+  margin-right: 30px;
 }
 
 a.github:hover:not(.active) {
-  color: var(--light-gray);
+  color: var(--light-gray); /*Final COlor */
   transition: 1s;
 }

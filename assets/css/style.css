@@ -126,24 +126,19 @@ img.PM {
   margin-top: 75px;
 }
 
-div.uwu > hr {
-  position: absolute;
-  bottom: 100px;
-
-  border-radius: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border: none;
-  border-top: 5px solid rgba(255,255,255,0.1);
+div.uwu {
+  position: absolute;  
+  bottom: 15px;
 }
 
 a.github {
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
   color: var(--background);
+  transition: 500ms;
+}
 
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  text-align: center;
+a.github:hover:not(.active) {
+  color: var(--main-color);
+  transition: 500ms;
 }

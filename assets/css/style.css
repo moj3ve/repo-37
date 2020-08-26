@@ -70,6 +70,7 @@ h1.welcome {
 }
 
 h2.package {
+  background-color: var(--background);
   font-size: 30px;
 
   margin-left: 250px;
@@ -78,10 +79,6 @@ h2.package {
   padding: 1px;
 
   transition: 2s;
-}
-
-h2.package:hover:not(.active) {
-  background-color: var(--background);
 }
 
 /* Shared 'a' Properies */

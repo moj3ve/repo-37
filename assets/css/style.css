@@ -2,9 +2,9 @@
 
 /* Color Variables */
 :root {
-  --background: rgb(111, 149, 246);
-  --main-background: rgb(25, 25, 25);
-  --main-color: rgb(212, 212, 212);
+  --secondary: rgb(111, 149, 246);
+  --background: rgb(25, 25, 25);
+  --light-gray: rgb(212, 212, 212);
 
   --cydia: rgb(142, 92, 67);
   --zebra: rgb(234, 234, 234);
@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: var(--main-background);
+  background-color: var(--background);
   color: white;
   text-align: center;
   font-family: 'Fira Code';
@@ -34,7 +34,7 @@ ul {
   top: 0;
   width: fit-content;
 
-  background-color: var(--background);
+  background-color: var(--secondary);
 
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -46,7 +46,7 @@ li {
 }
 
 li a {
-  color: var(--main-background);
+  color: var(--background);
   font-weight: bolder;
   text-align: center;
   margin: 10px;
@@ -58,22 +58,22 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: var(--main-color);
-  color: var(--background);
+  background-color: var(--light-gray);
+  color: var(--secondary);
 
   border-radius: 8px; /* Final Radius */
   transition: 1s;
 }
 
 h1.welcome {
-  color: var(--main-color);
+  color: var(--light-gray);
   font-size: 75px;
 
   margin-top: 75px;
 }
 
 h2.package {
-  background-color: var(--background);
+  background-color: var(--secondary);
   font-size: 30px;
 
   margin-left: 250px;
@@ -126,19 +126,20 @@ img.PM {
   margin-top: 75px;
 }
 
-div.uwu {
+div.bottom {
   position: absolute;  
   bottom: 15px;
 }
 
 a.github {
   font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
-  color: var(--background);
-  transition: 500ms;
+  color: var(--secondary);
+  transition: 1s;
 }
 
 a.github:hover:not(.active) {
-  color: var(--main-color);
-  transition: 500ms;
+  color: var(--light-gray);
+  transition: 1s;
 }

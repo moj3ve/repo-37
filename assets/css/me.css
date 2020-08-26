@@ -2,8 +2,8 @@
 
 /* Color Variables */
 :root {
-  --background: rgb(111, 149, 246);
-  --main-color: rgb(212, 212, 212);
+  --secondary: rgb(111, 149, 246);
+  --light-gray: rgb(212, 212, 212);
 }
 
 body {
@@ -23,7 +23,7 @@ ul {
   top: 0;
   width: fit-content;
 
-  background-color: var(--background);
+  background-color: var(--secondary);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }

@@ -2,8 +2,8 @@
 
 /* Color Variables */
 :root {
-  --background: rgb(111, 149, 246);
-  --main-color: rgb(212, 212, 212);
+  --secondary: rgb(111, 149, 246);
+  --light-gray: rgb(212, 212, 212);
 }
 
 body {
@@ -14,12 +14,12 @@ body {
 }
 
 h1 {
-  color: var(--main-color);
+  color: var(--light-gray);
   font-size: 75px;
 }
 
 h2 {
-  background-color: var(--background);
+  background-color: var(--secondary);
   font-size: 30px;
   margin-left: 150px;
   margin-right: 150px;
@@ -28,7 +28,7 @@ h2 {
 }
 
 img {
-  background-color: var(--background);
+  background-color: var(--secondary);
   padding: 10px;
   border-radius: 25px;
   width: 100px;

@@ -3,6 +3,7 @@
 /* Color Variables */
 :root {
   --background: rgb(111, 149, 246);
+  --main-background: rgb(36, 36, 36);
   --main-color: rgb(212, 212, 212);
 
   --cydia: rgb(142, 92, 67);
@@ -17,7 +18,7 @@
 }
 
 body {
-  background-color: #242424;
+  background-color: var(--main-background);
   color: white;
   text-align: center;
   font-family: 'Fira Code';
@@ -41,11 +42,11 @@ ul {
 
 li {
   float: right;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 li a {
-  color: #000000;
+  color: var(--main-background);
   font-weight: bolder;
   text-align: center;
   margin: 10px;
@@ -67,6 +68,8 @@ li a:hover:not(.active) {
 h1.welcome {
   color: var(--main-color);
   font-size: 75px;
+
+  margin-top: 75px;
 }
 
 h2.package {

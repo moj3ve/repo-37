@@ -3,7 +3,7 @@
 /* Color Variables */
 :root {
   --background: rgb(111, 149, 246);
-  --main-background: rgb(36, 36, 36);
+  --main-background: rgb(25, 25, 25);
   --main-color: rgb(212, 212, 212);
 
   --cydia: rgb(142, 92, 67);
@@ -124,4 +124,15 @@ img.PM {
   width: 150px;
   border-radius: 50px;
   margin-top: 75px;
+}
+
+hr {
+  border-radius: 5px;
+
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  border: none;
+  border-top: 5px solid rgba(255,255,255,0.1);
 }

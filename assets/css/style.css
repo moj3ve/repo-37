@@ -129,6 +129,7 @@ img.PM {
 div.bottom {
   position: absolute;  
   bottom: 15px;
+  right: 0
 }
 
 a.github {

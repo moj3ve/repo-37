@@ -129,10 +129,14 @@ img.PM {
 hr {
   border-radius: 5px;
 
-  margin-top: 50px;
+  margin-top: 375px;
   margin-left: 50px;
   margin-right: 50px;
 
   border: none;
   border-top: 5px solid rgba(255,255,255,0.1);
+}
+
+a.github {
+  text-decoration: none;
 }
